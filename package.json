@@ -4,11 +4,15 @@
   "main": "check-dupe.js",
   "type": "module",
   "bin": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matwaroff/yarn-dupe"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mathew Waroff <mathew.waroff@kw.com>",
   "license": "ISC",
   "description": "",
   "dependencies": {

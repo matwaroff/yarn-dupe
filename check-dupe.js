@@ -6,7 +6,6 @@ import { gt } from "semver";
 export function extractDupes(fileName, prefix) {
   const startsWithPrefix = (pkgName) => pkgName.startsWith(prefix);
   const path = resolve(fileName);
-  console.log(prefix);
   if (!existsSync(path)) {
     console.log(`File not found: ${fileName}`);
     return;
